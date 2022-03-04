@@ -1,0 +1,1 @@
+﻿Get-Service | Where-Object -Property Status -EQ Running | Select-Object Name, DisplayName, StartType | Sort-Object -Property StartType, Name
